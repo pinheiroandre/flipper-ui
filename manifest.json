@@ -1,6 +1,6 @@
 {
   "vendors.js": "/flipper-ui/static/js/vendors.62648176.js",
-  "app.js": "/flipper-ui/static/js/app.4c43093e.js",
+  "app.js": "/flipper-ui/static/js/app.5b943719.js",
   "src-docz-advertise.js": "/flipper-ui/static/js/src-docz-advertise.bfd2fee0.js",
   "src-docz-avatar.js": "/flipper-ui/static/js/src-docz-avatar.d13c3892.js",
   "src-docz-badge.js": "/flipper-ui/static/js/src-docz-badge.9bd2cb22.js",
@@ -24,12 +24,12 @@
   "src-docz-radio.js": "/flipper-ui/static/js/src-docz-radio.98150cba.js",
   "src-docz-radio-group.js": "/flipper-ui/static/js/src-docz-radio-group.bab747df.js",
   "src-docz-select.js": "/flipper-ui/static/js/src-docz-select.f98d5b7f.js",
-  "src-docz-sidebar.js": "/flipper-ui/static/js/src-docz-sidebar.68ed4bb0.js",
+  "src-docz-sidebar.js": "/flipper-ui/static/js/src-docz-sidebar.a3bfc16a.js",
   "src-docz-snackbar.js": "/flipper-ui/static/js/src-docz-snackbar.cff917a0.js",
   "src-docz-stepper.js": "/flipper-ui/static/js/src-docz-stepper.263108b9.js",
   "src-docz-text-field.js": "/flipper-ui/static/js/src-docz-text-field.c93eb094.js",
   "src-docz-tree.js": "/flipper-ui/static/js/src-docz-tree.1dcbdabb.js",
   "src-docz-typography.js": "/flipper-ui/static/js/src-docz-typography.5e0c5d38.js",
-  "runtime~app.js": "/flipper-ui/static/js/runtime~app.f194cd8d46d42f45fe65.js",
+  "runtime~app.js": "/flipper-ui/static/js/runtime~app.8075728b4d87d8f5fc05.js",
   "index.html": "/flipper-ui/index.html"
 }
