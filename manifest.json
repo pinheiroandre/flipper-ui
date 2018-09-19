@@ -1,6 +1,6 @@
 {
-  "vendors.js": "/flipper-ui/static/js/vendors.b43d44b9.js",
-  "app.js": "/flipper-ui/static/js/app.4a305c74.js",
+  "vendors.js": "/flipper-ui/static/js/vendors.b112c7b7.js",
+  "app.js": "/flipper-ui/static/js/app.edf0f5d7.js",
   "src-docz-advertise.js": "/flipper-ui/static/js/src-docz-advertise.bfd2fee0.js",
   "src-docz-avatar.js": "/flipper-ui/static/js/src-docz-avatar.d13c3892.js",
   "src-docz-badge.js": "/flipper-ui/static/js/src-docz-badge.76319c57.js",
@@ -14,8 +14,8 @@
   "src-docz-date-time.js": "/flipper-ui/static/js/src-docz-date-time.6fb0fc8f.js",
   "src-docz-header.js": "/flipper-ui/static/js/src-docz-header.09ac921e.js",
   "src-docz-icon-button.js": "/flipper-ui/static/js/src-docz-icon-button.4acddcde.js",
-  "src-docz-list.js": "/flipper-ui/static/js/src-docz-list.c7a997d1.js",
-  "src-docz-line.js": "/flipper-ui/static/js/src-docz-line.7cf0f6e4.js",
+  "src-docz-line.js": "/flipper-ui/static/js/src-docz-line.2d168d0a.js",
+  "src-docz-list.js": "/flipper-ui/static/js/src-docz-list.451c6d39.js",
   "src-docz-menu.js": "/flipper-ui/static/js/src-docz-menu.e3d5493d.js",
   "src-docz-node.js": "/flipper-ui/static/js/src-docz-node.3e4e9b40.js",
   "src-docz-pagination.js": "/flipper-ui/static/js/src-docz-pagination.cd9efa84.js",
@@ -27,10 +27,10 @@
   "src-docz-sidebar.js": "/flipper-ui/static/js/src-docz-sidebar.ad80477a.js",
   "src-docz-snackbar.js": "/flipper-ui/static/js/src-docz-snackbar.3d263cbd.js",
   "src-docz-stepper.js": "/flipper-ui/static/js/src-docz-stepper.14d09636.js",
-  "src-docz-tabs.js": "/flipper-ui/static/js/src-docz-tabs.f9de9524.js",
+  "src-docz-tabs.js": "/flipper-ui/static/js/src-docz-tabs.bb8afe2f.js",
   "src-docz-text-field.js": "/flipper-ui/static/js/src-docz-text-field.75979691.js",
   "src-docz-tree.js": "/flipper-ui/static/js/src-docz-tree.24f0e557.js",
   "src-docz-typography.js": "/flipper-ui/static/js/src-docz-typography.10a4cf6e.js",
-  "runtime~app.js": "/flipper-ui/static/js/runtime~app.08e1cde69bf1b2902359.js",
+  "runtime~app.js": "/flipper-ui/static/js/runtime~app.19c72df1e558888ca66b.js",
   "index.html": "/flipper-ui/index.html"
 }
