@@ -1,12 +1,12 @@
 {
   "vendors.js": "/flipper-ui/static/js/vendors.e2870007.js",
-  "app.js": "/flipper-ui/static/js/app.c170607f.js",
+  "app.js": "/flipper-ui/static/js/app.c4c27d86.js",
   "src-docz-advertise.js": "/flipper-ui/static/js/src-docz-advertise.a9be4e53.js",
   "src-docz-auto-complete.js": "/flipper-ui/static/js/src-docz-auto-complete.6c8d70d7.js",
   "src-docz-avatar.js": "/flipper-ui/static/js/src-docz-avatar.6e1b542a.js",
   "src-docz-badge.js": "/flipper-ui/static/js/src-docz-badge.4753573b.js",
   "src-docz-box.js": "/flipper-ui/static/js/src-docz-box.8468a23c.js",
-  "src-docz-button.js": "/flipper-ui/static/js/src-docz-button.65a14483.js",
+  "src-docz-button.js": "/flipper-ui/static/js/src-docz-button.2c8f01bc.js",
   "src-docz-card.js": "/flipper-ui/static/js/src-docz-card.84b27610.js",
   "src-docz-checkbox.js": "/flipper-ui/static/js/src-docz-checkbox.ea688d80.js",
   "src-docz-chip.js": "/flipper-ui/static/js/src-docz-chip.9ed5f36f.js",
@@ -38,6 +38,6 @@
   "src-docz-tooltip.js": "/flipper-ui/static/js/src-docz-tooltip.0f22cf27.js",
   "src-docz-tree.js": "/flipper-ui/static/js/src-docz-tree.3f42dc3e.js",
   "src-docz-typography.js": "/flipper-ui/static/js/src-docz-typography.83701dd1.js",
-  "runtime~app.js": "/flipper-ui/static/js/runtime~app.cff128abe0cc3e38eacc.js",
+  "runtime~app.js": "/flipper-ui/static/js/runtime~app.09df0e1ba0df850a73eb.js",
   "index.html": "/flipper-ui/index.html"
 }
