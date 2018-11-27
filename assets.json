@@ -1,6 +1,6 @@
 {
   "vendors.js": "/flipper-ui/static/js/vendors.8e7537e5.js",
-  "app.js": "/flipper-ui/static/js/app.f6e7b9be.js",
+  "app.js": "/flipper-ui/static/js/app.8e7a1eaf.js",
   "src-docz-advertise.js": "/flipper-ui/static/js/src-docz-advertise.c517e4e3.js",
   "src-docz-auto-complete.js": "/flipper-ui/static/js/src-docz-auto-complete.66716b34.js",
   "src-docz-avatar.js": "/flipper-ui/static/js/src-docz-avatar.b27d8ff1.js",
@@ -42,6 +42,6 @@
   "src-docz-tree.js": "/flipper-ui/static/js/src-docz-tree.4519bff9.js",
   "src-docz-typography.js": "/flipper-ui/static/js/src-docz-typography.78683aef.js",
   "src-docz-zoom.js": "/flipper-ui/static/js/src-docz-zoom.de0bdf33.js",
-  "runtime~app.js": "/flipper-ui/static/js/runtime~app.790ee3c5acd0ed058af1.js",
+  "runtime~app.js": "/flipper-ui/static/js/runtime~app.82a0f1d6a3b8c55f69dd.js",
   "index.html": "/flipper-ui/index.html"
 }
