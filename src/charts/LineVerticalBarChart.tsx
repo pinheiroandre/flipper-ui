@@ -7,9 +7,9 @@ import {
     VerticalBarSeries,
     LineMarkSeries,
     DiscreteColorLegend,
+    FlexibleXYPlot,
     Crosshair
 } from 'react-vis'
-import { FlexibleXYPlot } from 'react-vis/es/make-vis-flexible'
 import { format, parse } from 'date-fns'
 import { Wrapper } from './style'
 import { ChartsTooltip } from './HorizontalBarChart'

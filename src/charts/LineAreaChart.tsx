@@ -9,9 +9,9 @@ import {
     LineSeries,
     LabelSeries,
     DiscreteColorLegend,
-    Crosshair
+    Crosshair,
+    FlexibleXYPlot
 } from 'react-vis'
-import { FlexibleXYPlot } from 'react-vis/es/make-vis-flexible'
 import { Wrapper } from './style'
 import { format, parse } from 'date-fns'
 import {
@@ -152,7 +152,7 @@ const LineAreaChart = (props: IProps) => {
     }
 
     return (
-        <Wrapper>
+        <Wrapper id='line-area-chart'>
             <FlexibleXYPlot
                 margin={ { right: marginRight || 24, left: marginLeft || 44 } }
                 yDomain={ [0, getMaxDomain(getYAxis(data), yDomainExtra)] }

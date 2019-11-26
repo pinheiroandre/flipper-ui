@@ -66,10 +66,24 @@ const reactVisModules = {
     ScaleUtils: 'utils/scales-utils'
 }
 
+const extraTransfors = process.env.NODE_ENV === 'TEST' 
+  ? {} 
+  : { 
+    "ramda": {
+      "transform": "ramda/es/${member}",
+      "preventFullImport": true
+    },
+    "react-vis": {
+      "transform": importName => `react-vis/es/${reactVisModules[importName]}`,
+      "preventFullImport": true
+    }
+}
+
 module.exports = {
   "plugins": [
     [
       "transform-imports", {
+        ...extraTransfors,
         "@material-ui/icons": {
           "transform": "@material-ui/icons/${member}",
           "preventFullImport": true
@@ -90,10 +104,6 @@ module.exports = {
           "transform": "flipper-ui/charts/${member}",
           "preventFullImport": true
         },
-        "react-vis": {
-          "transform": importName => `react-vis/es/${reactVisModules[importName]}`,
-          "preventFullImport": true
-        },
         "date-fns/locale": {
           "transform": importName =>`date-fns/locale/${toKebabCase(importName)}`,
           "preventFullImport": true 
@@ -101,17 +111,24 @@ module.exports = {
         "date-fns": {
           "transform": "date-fns/${member}",
           "preventFullImport": true
-        },
-        "ramda": {
-          "transform": "ramda/es/${member}",
-          "preventFullImport": true
-        },
+        }
       }
     ],
     "@babel/proposal-class-properties",
     "@babel/proposal-object-rest-spread",
-    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-runtime"
   ],
+  "env": {
+    "test": {
+      "presets": [
+        ["@babel/env", 
+            { "targets": { "esmodules": true } }
+        ],
+        "@babel/react",
+        "@babel/typescript"
+      ]
+    }
+  },
   "presets": [
     "@babel/env",
     "@babel/react",

@@ -6,9 +6,9 @@ import {
     XAxis,
     YAxis,
     VerticalBarSeries,
-    Crosshair
+    Crosshair,
+    FlexibleXYPlot
 } from 'react-vis'
-import { FlexibleXYPlot } from 'react-vis/es/make-vis-flexible'
 import { Wrapper } from './style'
 import { getYAxis, getMaxDomain, truncate, units, TooltipText } from './AreaChart'
 import { formatToBRL } from 'brazilian-values'

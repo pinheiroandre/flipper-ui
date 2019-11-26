@@ -9,12 +9,11 @@ import {
     LineMarkSeries,
     LineSeries,
     LabelSeries,
-    Crosshair
+    Crosshair,
+    FlexibleXYPlot
 } from 'react-vis'
-import { FlexibleXYPlot } from 'react-vis/es/make-vis-flexible'
 import { Wrapper } from './style'
 import { format, parse, isSameDay } from 'date-fns'
-import { ChartsTooltip } from './HorizontalBarChart'
 import styled from 'styled-components'
 import ptBR from 'date-fns/locale/pt-BR'
 
@@ -52,6 +51,15 @@ export const units = {
     percent: '%',
     quantity: ''
 }
+
+export const ChartsTooltip = styled.div`
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 4px;
+    padding: 6px;
+    opacity: 0.6; 
+`
 
 export const truncate = (value: number) => Number(value.toFixed(2))
 export const getYAxis = (data: TData[]) => data.map(([, y]: TData) => y)

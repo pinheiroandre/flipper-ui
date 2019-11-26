@@ -8,9 +8,9 @@ import {
     VerticalBarSeries,
     LineMarkSeries,
     Crosshair,
-    DiscreteColorLegend
+    DiscreteColorLegend,
+    FlexibleXYPlot
 } from 'react-vis'
-import { FlexibleXYPlot } from 'react-vis/es/make-vis-flexible'
 import {
     IBarInfos,
     TooltipText,

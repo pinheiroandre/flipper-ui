@@ -4,9 +4,9 @@ import {
     YAxis,
     HorizontalBarSeries,
     LabelSeries,
+    FlexibleXYPlot,
     Hint
 } from 'react-vis'
-import { FlexibleXYPlot } from 'react-vis/es/make-vis-flexible'
 import styled from 'styled-components'
 import { TooltipText } from './AreaChart'
 
